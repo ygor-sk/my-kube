@@ -19,5 +19,5 @@ spec:
         app: voting-demo
     spec:
       containers:
-        - name: voting-app
+        - name: worker-app-pod
           image: dockersamples/examplevotingapp_worker
